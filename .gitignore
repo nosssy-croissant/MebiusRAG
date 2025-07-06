@@ -14,3 +14,4 @@ __pycache__
 .vscode.env
 bfg-1.14.0.jar
 mebius-chatbot/__pycache__/main.cpython-310.pyc
+mebius-chatbot/llm/__pycache__/generator.cpython-310.pyc
