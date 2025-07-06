@@ -1,3 +1,5 @@
+readmeがんばってかきこみちゅうです
+
 [Gigantic整地鯖公式サイト](https://www.seichi.network/)
 
 # 仕様
