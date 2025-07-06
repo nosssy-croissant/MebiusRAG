@@ -10,6 +10,8 @@ readmeがんばってかきこみちゅうです
 
 **Mebiusくんと簡単な会話ができるようにする！！！**
 
+最終的に[SeichiAssist](https://github.com/GiganticMinecraft/SeichiAssist/)へのサブモジュールかなんらかでの統合を目指したい
+
 
 # 仕様
 ## 💬 通常時（9割くらい）→ 従来の定型文を送る
