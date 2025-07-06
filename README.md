@@ -1,5 +1,8 @@
 readmeがんばってかきこみちゅうです
 
+※本リポジトリはGigantic整地鯖非公式で開発を進めています!
+
+
 [Gigantic整地鯖公式サイト](https://www.seichi.network/)
 
 # 仕様
