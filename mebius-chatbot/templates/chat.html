@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MEBIUSチャット</title>
+    <style>
+        body { font-family: sans-serif; padding: 2rem; background: #f0f0ff; }
+        input, textarea { font-size: 1rem; padding: 0.5rem; margin: 0.5rem 0; width: 100%; }
+        .response { background: #fff; padding: 1rem; border: 1px solid #ccc; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>🌀 MEBIUSとお話ししよう！</h1>
+    <form method="post">
+        <label>プレイヤー名:</label>
+        <input type="text" name="player" value="{{player or ''}}" required>
+        <label>メッセージ:</label>
+        <textarea name="message" rows="3" required>{{message or ''}}</textarea>
+        <button type="submit">送信</button>
+    </form>
+
+    {% if response %}
+        <div class="response">
+            <strong>MEBIUS:</strong> {{ response }}
+        </div>
+    {% endif %}
+</body>
+</html>
