@@ -1,3 +1,5 @@
+[Gigantic整地鯖公式サイト](https://www.seichi.network/)
+
 # 仕様
 ## 💬 通常時（9割くらい）→ 従来の定型文を送る
 
