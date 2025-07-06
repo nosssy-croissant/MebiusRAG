@@ -30,4 +30,4 @@ readmeがんばってかきこみちゅうです
 
 # テスト用WebApp
 
-現在FastAPIサーバー上 'localhost:8000' でWebAppが立つので簡単なやりとりをテスト出来ます
+現在FastAPIサーバー上 'localhost:8000' でWebAppが立つので簡単なやりとりをテスト出来ます ※自分のChatgpt Api Keyが必要です
