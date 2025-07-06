@@ -16,7 +16,7 @@ readmeがんばってかきこみちゅうです
 # 仕様
 ## 💬 通常時（9割くらい）→ 従来の定型文を送る
 
-参照先: [SeichiAssist](https://github.com/GiganticMinecraft/SeichiAssist/blob/a48e4748fe0141d35d3d0f4eae5dbe00ffadd2a1/src/main/scala/com/github/unchama/seichiassist/subsystems/mebius/domain/resources/MebiusMessages.scala)
+参照先: [SeichiAssist/.../MebiusMessages.scala](https://github.com/GiganticMinecraft/SeichiAssist/blob/a48e4748fe0141d35d3d0f4eae5dbe00ffadd2a1/src/main/scala/com/github/unchama/seichiassist/subsystems/mebius/domain/resources/MebiusMessages.scala)
 
 例： 
 > 「ポコポコポコ…整地の音ってやっぱり落ち着くねぇ」 
