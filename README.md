@@ -18,4 +18,4 @@
 
 # テスト用WebApp
 
-現在FastAPIサーバー上 'localhost:8000' にHTMLページを埋め込んで簡単なやりとりをテスト出来ます
+現在FastAPIサーバー上 'localhost:8000' でWebAppが立つので簡単なやりとりをテスト出来ます
