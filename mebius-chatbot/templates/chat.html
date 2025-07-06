@@ -14,6 +14,8 @@
     <form method="post">
         <label>プレイヤー名:</label>
         <input type="text" name="player" value="{{player or ''}}" required>
+        <label>Mebiusのニックネーム</label>
+        <input type="text" name="mebius_nickname" value="{{mebius_nickname or ''}}" required>
         <label>メッセージ:</label>
         <textarea name="message" rows="3" required>{{message or ''}}</textarea>
         <button type="submit">送信</button>

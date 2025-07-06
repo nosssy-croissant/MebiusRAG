@@ -17,6 +17,15 @@ async def index(request: Request):
 
 
 @app.post("/", response_class=HTMLResponse)
-async def chat(request: Request, player: str = Form(...), message: str = Form(...)):
-    reply = generate_reply(player, message)
-    return templates.TemplateResponse("chat.html", {"request": request, "response": reply, "player": player, "message": message})
+async def chat(request: Request, player: str = Form(...), mebius_nickname: str = Form(...), message: str = Form(...)):
+    reply = generate_reply(player, mebius_nickname, message)
+
+    print(f"Received message from {player}: {message}")
+    print(f"Mebius ({mebius_nickname}) replied: {reply}")
+
+    return templates.TemplateResponse("chat.html", {
+        "request": request, 
+        "response": reply, 
+        "player": player, 
+        "mebius_nickname": mebius_nickname,
+        "message": message})
