@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/3f172527-e48e-4938-b72a-f0a846ae1036)
+
+
 readmeがんばってかきこみちゅうです
 
 ※本リポジトリはGigantic整地鯖非公式で開発を進めています!
